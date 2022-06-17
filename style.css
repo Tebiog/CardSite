@@ -1,0 +1,65 @@
+.Buttons{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.PlayerButtons{
+    border: 0px;
+    width: 126px;
+    height: 126px;
+    margin-top: 1%;
+    margin-left: 2%;   
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.PlayerButtons:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.PlayerButtons:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+  }
+  .DifficultyButtons{
+    border: 0px;
+    width: 126px;
+    height: 126px;
+    margin-top: 1%;
+    margin-left: 2%;   
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.GameButton {
+    display: none;
+    border: 0px;
+    width: 126px;
+    height: 126px;
+    margin-top: 1%;
+    margin-left: 2%;   
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.GameButton:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.GameButton:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+  }
+.DifficultyButtons:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.DifficultyButtons:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+  }
+
+#SecButtons{
+    display: none;
+}
