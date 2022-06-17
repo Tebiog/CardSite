@@ -18,8 +18,10 @@ for(let i = 0; i< test.length; i++){
    if(game.GetPlayerCount() >= 2){
       allButtons.addEventListener("click", (e) => {
          for(let i = 0; i < game.GetPlayerCount(); i++){
-            console.log(game.GetPlayerCount());
-            game.GetPlayer(i).AddCard();
+            console.log(game.GetPlayer(i).isTurn());
+               if(game.GetPlayer(i).isTurn() == true){
+                  game.GetPlayer(i).DealCard(game);
+               }
       }
    })
 }

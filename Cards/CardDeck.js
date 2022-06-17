@@ -52,13 +52,9 @@ var CardDeck = function(options = {}) {
         return Cards[CardNum];
     }
     this.StartGame = () => {
-        cd.InitCards();
-        cd.Shuffle();
-        cd.ChooseTrump();
+        this.InitCards();
+        this.Shuffle();
+        this.ChooseTrump();
     }
 }
-
-var cd = new CardDeck;
-cd.StartGame();
-let card = cd.TakeRandomCard();
 

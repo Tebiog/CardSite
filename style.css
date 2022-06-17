@@ -1,3 +1,13 @@
+#CradsDiv {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+}
+
 .Buttons{
     display: flex;
     flex-wrap: nowrap;
