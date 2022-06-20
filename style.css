@@ -1,4 +1,4 @@
-#CradsDiv {
+#CradsDiv0 {
     position: relative;
     display: flex;
     align-items: center;
@@ -7,7 +7,55 @@
     flex-wrap: nowrap;
     flex-direction: row-reverse;
 }
-
+#CradsDiv1 {
+    position: relative;
+    display: flex;
+    height: 70%;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 10%;
+}
+.allCards { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ActiveCard {
+    background-image: url('CardsPng/CardBack.jpg');
+    width: 100px;
+    height: 100px;
+}
+#CradsDiv2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+}
+#CradsDiv3 {
+    position: relative;
+    display: flex;
+    height: 70%;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+    width: 10%;
+}
+.InGameButtons{
+    display: flex;
+    background-color: #3e8e41;
+    width: 400px;
+    height: 400px;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
 .Buttons{
     display: flex;
     flex-wrap: nowrap;
